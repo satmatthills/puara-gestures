@@ -12,4 +12,4 @@ jobs:
       - name: Build Project
         uses: threeal/cmake-action@v2.0.0
         with:
-          source-dir: /standalone
+          source-dir: puara-gestures/standalone
