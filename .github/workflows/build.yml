@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Checkout Project
         uses: actions/checkout@v4.2.0
+        with:
+          ref: refactor
 
       - name: Build Project
         uses: threeal/cmake-action@v2.0.0
